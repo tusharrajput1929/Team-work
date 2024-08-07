@@ -55,7 +55,8 @@
 }
 .bg-color {
   background-color: #ffebeb;
-
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -96,69 +97,30 @@ body {
   opacity: 0px;
   background-color: #ff0000;
 }
-/* ----------section -4------------ */
-.red-box-2 {
+
+/* =========slick = slider=========== */
+.border-box {
+  border: 0.83px solid #14141426;
+  width: 229.17px;
+  height: 80px;
+  border-radius: 16px;
+  
+}
+.green-svg{
+  height: 53px;
+  width: 53px;
+}
+.red-box-2{
+  
   width: 300px;
   height: 396px;
-  top: 227px;
+  top: 170px;
   left: -8%;
   gap: 0px;
   border-radius: 24px;
   opacity: 0px;
-  background-color: red;
+  background-color: #ff0000;
 }
-.p-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.table-2-img {
-  max-width: 435px !important;
-  height: 581px !important;
-  width: 100%;
-}
-.box-shadow {
-  box-shadow: 0px 1px 28px 1px #4747471a;
-  background: #ffffff;
-  width: 592px;
-  height: 128px;
-  padding: 16px;
-  border-radius: 24px;
-  opacity: 0px;
-  width: 100%;
-}
-.sec-4-button {
-  width: 173px;
-  height: 63px;
-  padding: 20px 32px;
-  gap: 10px;
-  border-radius: 56px;
-  opacity: 0px;
-  background: #ff0000;
-  border: none;
-  color: #ffffff;
-}
-.sec-4-button:hover {
-  background-color: white;
-  border: 1px solid #ff0000;
-  color: red;
-  transition: all 300ms linear;
-}
-.sec-4-button2 {
-  height: 63px;
-  padding: 20px 32px;
-  gap: 10px;
-  border-radius: 56px;
-  opacity: 0px;
-  border: 1px solid #ff0000;
-  color: #ff0000;
-}
-.sec-4-button2:hover {
-  background-color: red;
-  color: white;
-  transition: all 300ms linear;
-}
-/* =========slick = slider=========== */
-
 /* ==========media==quary==================*/
 @media (max-width: 992px) {
   .p-100 {
