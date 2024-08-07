@@ -98,7 +98,6 @@ body {
   background-color: #ff0000;
 }
 
-/* =========slick = slider=========== */
 .border-box {
   border: 0.83px solid #14141426;
   width: 229.17px;
@@ -121,6 +120,89 @@ body {
   opacity: 0px;
   background-color: #ff0000;
 }
+/* ====================slick slider==================== */
+.slider-box {
+  box-shadow: 0px 2px 44px 3px #5757571a;
+  max-width: 364px !important;
+  height: 305px;
+  border-radius: 10px;
+  border-radius: 10px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pl-105 {
+  padding-left: 105px;
+}
+.pl-85 {
+  padding-left: 85px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+section .container .sliderbox .slick-dots li button:before {
+  opacity: 0 !important;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+section .container .sliderbox .slick-list {
+  overflow: visible;
+  padding: 0 20% 0 0;
+  position: relative;
+  z-index: -1;
+}
+section .container .sliderbox .slick-list::after {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 4000px;
+  right: 100%;
+  background-color: transparent;
+}
+.z-10 {
+  z-index: 10;
+}
+.gap-15 {
+  gap: 15px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.w-1140 {
+  max-width: 1140px;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.element.style {
+  width: auto !important;
+}
+.slick-prev:before,
+.slick-next::before {
+  display: none;
+}
+
+.media-card-2 {
+  border: 0.83px solid #14141426;
+}
+.media-card-2:hover {
+  transform: scale(1.06);
+}
+.transition-300ms {
+  transition: all .9s ease-in-out ;
+}
+
 /* ==========media==quary==================*/
 @media (max-width: 992px) {
   .p-100 {
